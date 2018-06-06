@@ -79,9 +79,7 @@ export default {
     check() {
       this.resultText = "Incorrect!!!";
 
-      console.log(`${this.deck.conjugation} vs ${this.answer}`);
-
-      if (this.answer === this.deck.conjugation) {
+      if (this.answer.toLowerCase() === this.deck.conjugation) {
         this.resultText = "Correct!";
         this.gueses = 0;
         this.shuffle();
