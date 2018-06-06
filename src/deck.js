@@ -138,7 +138,7 @@ const comer = {
         },
         {
             subject: "él",
-            conjugation: "comío"
+            conjugation: "comió"
         },
         {
             subject: "nosotros",
@@ -246,7 +246,7 @@ const vivir = {
         },
         {
             subject: "él",
-            conjugation: "vivío"
+            conjugation: "vivió"
         },
         {
             subject: "nosotros",
