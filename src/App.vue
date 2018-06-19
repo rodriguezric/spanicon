@@ -47,6 +47,14 @@
               <v-list-tile-title>Answer Key</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
+           <v-list-tile @click="gotoNotes">
+            <v-list-tile-action>
+              <v-icon class="red--text">library_books</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Study Notes</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
         </v-list>
       </v-navigation-drawer>
       <v-toolbar app fixed clipped-left>
@@ -87,6 +95,9 @@ export default {
     },
     gotoTranslate() {
       this.$router.push("/translate");
+    },
+    gotoNotes() {
+      this.$router.push("/notes");
     }
   }
 };

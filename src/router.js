@@ -5,6 +5,8 @@ import Conjugate from './components/Conjugate'
 import Translate from './components/Translate'
 import Answers from './components/Answers'
 
+import Notes from './components/Notes'
+
 
 Vue.use(VueRouter)
 
@@ -20,6 +22,10 @@ const router = new VueRouter({
         {
             path: "/answers",
             component: Answers
+        },
+        {
+            path: "/notes",
+            component: Notes
         }
     ]
 })

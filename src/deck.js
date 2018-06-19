@@ -980,6 +980,7 @@ const decks = {
   Ir,
   Nadar,
   Comer,
+  Tener,
   Vivir
 };
 const verbs = ["Haber", "Hacer", "Estar", "Ser", "Ir", "Nadar", "Comer", "Tener", "Vivir"].sort();
