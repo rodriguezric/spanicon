@@ -5,7 +5,7 @@
                 <v-layout justify-center>
                     <v-card class="elevation-5 mb-4 title" width="500px">
                         <div class="pa-4">
-                            Study Notes
+                            Study Notes 
                         </div>
                     </v-card>
                 </v-layout>
